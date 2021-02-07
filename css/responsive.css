@@ -1,0 +1,200 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (min-width: 374px) and (max-width: 575.98px) {
+
+    #slider-part .slider-content h2 {
+        font-size: 25px;
+    }
+
+    #slider-part .slider-content p {
+        font-size: 12px;
+        text-align: justify;
+    }
+
+    #product-part h2.categories-title,
+    #shoes-part h2.shoes-title,
+    #backpack-part h2 {
+        font-size: 24px;
+    }
+
+    #product-part h2.watch-title {
+        font-size: 24px;
+        padding-left: 32px;
+
+    }
+
+    #product-part h2.shoes-title {
+        font-size: 24px;
+        padding-left: 40px;
+
+    }
+
+    #product-part h2.backpack-title {
+        font-size: 32px;
+        padding-left: 10px;
+
+    }
+
+    #shoes-part .card-title {
+        font-size: 14px;
+    }
+
+    #shoes-part,
+    #backpack-part p {
+        font-size: 11px;
+        text-align: justify;
+    }
+
+    #shoes-part h3,
+    #backpack-part h3 {
+        font-size: 15px;
+    }
+
+
+    .btn-custom {
+        padding: 6px 16px;
+        background-color: #FF247A;
+        color: #ffffff;
+        text-transform: uppercase;
+        transition: 0.5s;
+        margin-top: 10px;
+        font-size: 10px;
+    }
+
+    #contact-part h2 {
+        font-size: 25px;
+    }
+
+    #contact-part p {
+        font-size: 12px;
+    }
+
+    .form-control {
+        font-size: 11px;
+
+    }
+
+}
+
+
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    #slider-part .slider-content h2 {
+        font-size: 30px;
+    }
+
+    #slider-part .slider-content p {
+        font-size: 14px;
+        text-align: justify;
+    }
+
+
+    #product-part h2.watch-title {
+        font-size: 26px;
+        padding-left: 25px;
+
+    }
+
+    #product-part h2.shoes-title {
+        font-size: 25px;
+        padding-left: 32px;
+
+    }
+
+    #product-part h2.backpack-title {
+        font-size: 25px;
+        padding-left: 5px;
+
+    }
+
+    #shoes-part .card-title {
+        font-size: 16px;
+    }
+
+    #shoes-part,
+    #backpack-part p {
+        font-size: 13px;
+        text-align: justify;
+    }
+
+    #shoes-part h3,
+    #backpack-part h3 {
+        font-size: 20px;
+    }
+
+    .btn-custom {
+        padding: 6px 16px;
+        background-color: #FF247A;
+        color: #ffffff;
+        text-transform: uppercase;
+        transition: 0.5s;
+        margin-top: 10px;
+        font-size: 11px;
+    }
+
+    #contact-part p {
+        text-align: center;
+    }
+
+    .form-control {
+        font-size: 14px;
+
+    }
+
+
+}
+
+
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    #slider-part .slider-content h2 {
+        font-size: 32px;
+    }
+
+    #slider-part .slider-content p {
+        font-size: 15px;
+        text-align: justify;
+    }
+
+
+
+
+    #product-part h2.watch-title,
+    #product-part h2.backpack-title,
+    #product-part h2.shoes-title {
+        font-size: 20px;
+        padding-top: 35px;
+    }
+
+    card-img,
+    .card-img-top {
+        width: 200px;
+    }
+
+    .card {
+        width: 14rem;
+    }
+
+    .btn-custom {
+        padding: 6px 6px;
+        background-color: #FF247A;
+        color: #ffffff;
+        text-transform: uppercase;
+        transition: 0.5s;
+        margin-top: 10px;
+    }
+
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    ...
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    ...
+}
